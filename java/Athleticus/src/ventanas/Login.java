@@ -86,7 +86,7 @@ public class Login {
 		Icon.setIcon(new ImageIcon(Login.class.getResource("/imagenes/LogotipoAthleticus.png")));
 		Icon.setBounds(10, 17, 500, 500);
 		panel.add(Icon);
-		
+		con = new Conectar();
 		Button button = new Button("Entrar");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
